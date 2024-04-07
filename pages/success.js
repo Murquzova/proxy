@@ -7,7 +7,7 @@ const SuccessPage = () => {
   useEffect(() => {
     const { params } = router.query;
     if (params) {
-      window.location.assign(`/success?params=${params}`);
+      window.location.assign(`https://vincode.az/success?params=${params}`);
     }
   }, [router.query.params]);
 
