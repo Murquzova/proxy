@@ -1,3 +1,3 @@
 export default function handler(req, res) {
-  res.redirect(`/decline`);
+  res.redirect(`https://vincode.az/decline`);
 }
